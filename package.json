@@ -1,5 +1,5 @@
 {
-  "name": "ts-utils",
+  "name": "@qntnt/ts-utils",
   "version": "1.0.0",
   "description": "Common Typescript utilities",
   "main": "./lib/index.js",
@@ -7,6 +7,7 @@
   "repository": "https://github.com/qntnt/ts-utils",
   "author": "Quentin Topper <quentopp@gmail.com>",
   "license": "MIT",
+  "private": false,
   "scripts": {
     "clean": "rm -rf lib/*",
     "build": "yarn clean && tsc --declaration"
